@@ -23,5 +23,3 @@ deb http://security.ubuntu.com/ubuntu/ focal-security main restricted universe m
 EOF
 
 sudo apt update && sudo apt upgrade && sudo apt autoremove
-
-y
