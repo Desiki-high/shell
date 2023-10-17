@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-sudo timedatectl set-ntp true
-sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+timedatectl set-timezone Asia/Shanghai
+sudo date -s MM/DD/YY
+sudo date -s hh:mm:ss
 sudo hwclock --systohc
 date -R
